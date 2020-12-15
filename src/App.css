@@ -48,7 +48,36 @@
   transition: ease 0.5s;
 }
 
+.minutes{
+  top: 50%;
+  left: 36%;
+  transform: translate(-50%, -25%);
+  width: 700px;
+  position: absolute;
+  text-align: right;
+  transition: ease 0.5s;
+}
+
+.hours{
+  top: 50%;
+  left: 47%;
+  transform: translate(-50%, -25%);
+  width: 500px;
+  position: absolute;
+  text-align: right;
+  transition: ease 0.5s;
+}
+
 .current-time {
   font-size: larger;
   color: crimson;
+}
+
+div{
+  padding:1rem
+}
+
+body{
+  background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
 }
