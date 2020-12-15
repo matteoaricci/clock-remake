@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+
+.seconds {
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -25%);
+  width: 900px;
+  position: absolute;
+  text-align: right;
+  transition: ease 0.5s;
+}
+
+.current-time {
+  font-size: larger;
+  color: crimson;
+}
