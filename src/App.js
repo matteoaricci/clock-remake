@@ -26,13 +26,13 @@ function App() {
     <div className="App">
       <Wheel values={[...Array(60).keys()].map(sec => {
         return 1 + sec + " seconds"
-      })} time={seconds}/>
-      {/* <Wheel values={[...Array(60).keys()].map(sec => {
+      })} time={seconds} wheelType={"seconds"}/>
+      <Wheel values={[...Array(60).keys()].map(sec => {
         return 1 + sec + " minutes"
-      })} time={minutes}/>
+      })} time={minutes} wheelType={"minutes"}/>
       <Wheel values={[...Array(24).keys()].map(sec => {
         return 1 + sec + " hours"
-      })} time={hours}/> */}
+      })} time={hours} wheelType={"hours"}/>   
     </div>
   );
 }
